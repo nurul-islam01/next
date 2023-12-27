@@ -3,8 +3,7 @@ set -e
 
 echo "Deployment started..."
 
-# Pull the latest version of the app
-git pull origin master
+git pull origin main
 echo "New changes copied to server !"
 
 echo "Installing Dependencies..."
@@ -14,6 +13,6 @@ echo "Creating Production Build..."
 npm run build
 
 echo "PM2 Reload"
-pm2 reload nurul/id
+pm2 reload npm
 
 echo "Deployment Finished!"
