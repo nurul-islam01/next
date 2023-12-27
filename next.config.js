@@ -40,7 +40,7 @@ const nextConfig = {
 
     return config;
   },
-  distDir: 'out',
+  distDir: 'nurulislam.dev',
   images: {
     unoptimized: true
   },
