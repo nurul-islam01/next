@@ -29,7 +29,7 @@ const Contacts = () => {
     e.preventDefault();
     setMail({ loading: true, status: status.LOADING });
     axios
-      .post('/mail', state, {
+      .post('/api/mail', state, {
         headers: {
           'Content-Type': 'application/json'
         }

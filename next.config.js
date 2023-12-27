@@ -16,21 +16,10 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 
 const nextConfig = {
   reactStrictMode: true,
-  exportTrailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
-  trailingSlash: true,
-  skipTrailingSlashRedirect: true,
   eslint: { ignoreDuringBuilds: true },
-  exportPathMap: async function () {
-    return {
-      '/': { page: '/' },
-      '/resume': { page: '/resume' },
-      '/contact': { page: '/contact' },
-      '/offline': { page: '/offline' }
-    };
-  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
