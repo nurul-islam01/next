@@ -25,12 +25,12 @@ jobs:
         run: npm run build
 
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@v0.5.1
+        uses: appleboy/ssh-action@v1.0.1
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secrets.VPS_PORT }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
           script: |
             cd /home/nurul/htdocs/nurulislam.dev
             git pull origin main
