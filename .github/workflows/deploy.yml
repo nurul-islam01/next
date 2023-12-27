@@ -16,6 +16,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY}}
           script: "cd /home/nurul/htdocs/nurulislam.dev && ./.scripts/deploy.sh"
