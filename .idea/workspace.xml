@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ZnAafFi81RhkyHCOWM4SW2C058" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.9.0",
+    "javascript.nodejs.core.library.typings.version": "20.9.5",
+    "last_opened_file_path": "/home/web22/Documents/nurul-next",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/web22/.nvm/versions/node/v20.9.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/web22/Documents/nij/nurul-next-app/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/snap/webstorm/351/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/static-assets/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages/api" />
+      <recent name="$PROJECT_DIR$/src/pages/api/mail" />
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
+      <created>1696932700156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696932700156</updated>
+      <workItem from="1703047536079" duration="157000" />
+      <workItem from="1703048696348" duration="70000" />
+      <workItem from="1703057902375" duration="397000" />
+      <workItem from="1703064062372" duration="4473000" />
+      <workItem from="1703080396592" duration="11397000" />
+      <workItem from="1703136690431" duration="5000" />
+      <workItem from="1703157508796" duration="1638000" />
+      <workItem from="1703169775253" duration="17000" />
+      <workItem from="1703249347146" duration="11323000" />
+      <workItem from="1703308587716" duration="10079000" />
+      <workItem from="1703324817517" duration="47000" />
+      <workItem from="1703325058531" duration="11474000" />
+      <workItem from="1703341568976" duration="11667000" />
+      <workItem from="1703395081329" duration="5025000" />
+      <workItem from="1703403221580" duration="14557000" />
+      <workItem from="1703427206432" duration="17337000" />
+      <workItem from="1703480893077" duration="16086000" />
+      <workItem from="1703509933173" duration="457000" />
+      <workItem from="1703511771190" duration="25275000" />
+      <workItem from="1703558482315" duration="6188000" />
+      <workItem from="1703568839449" duration="3419000" />
+      <workItem from="1703578216758" duration="622000" />
+      <workItem from="1703584238890" duration="582000" />
+      <workItem from="1703585195356" duration="253000" />
+      <workItem from="1703585749949" duration="286000" />
+      <workItem from="1703586407808" duration="1839000" />
+      <workItem from="1703588704513" duration="7322000" />
+      <workItem from="1703597038045" duration="15436000" />
+      <workItem from="1703654913904" duration="408000" />
+      <workItem from="1703655332926" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
