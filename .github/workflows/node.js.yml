@@ -31,7 +31,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             set -e
-            cd /home/nurul/htdocs/nurulislam.dev
+            cd htdocs/nurulislam.dev
             git pull origin main
             npm install
             npm run build
