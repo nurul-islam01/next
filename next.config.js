@@ -41,7 +41,6 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  output: 'export',
   images: {
     unoptimized: true
   },
