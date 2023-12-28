@@ -18,6 +18,14 @@ const poppins = Poppins({
 const Container = ({ children }) => {
   return (
     <main className={poppins.className}>
+      <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=GTM-xxxx`}
+          height="0"
+          width="0"
+          style={{ display: 'none', visibility: 'hidden' }}
+        />
+      </noscript>
       <Title />
       <div className={styles.background} />
       <div className={styles.base}>
