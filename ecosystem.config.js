@@ -1,9 +1,20 @@
 module.exports = {
   apps: [
     {
-      script: 'npm start'
+      watch: '.',
+      cwd: '/home/nurul/htdocs/nurulislam.dev',
+      script: 'npm',
+      args: 'start',
+      env: {
+        NODE_ENV: 'production'
+      }
+    },
+    {
+      script: './service-worker/',
+      watch: ['./service-worker']
     }
   ],
+
   deploy: {
     production: {
       user: 'nurul',
@@ -13,7 +24,7 @@ module.exports = {
       path: '/home/nurul/htdocs/nurulislam.dev',
       'pre-deploy-local': '',
       'post-deploy':
-        'source ~/.nvm/nvm.sh && npm i && npm run build && pm2 reload ecosystem.config.js -env production',
+        'npm install && pm2 reload ecosystem.config.js --env production',
       'pre-setup': '',
       ssh_options: 'ForwardAgent=yes'
     }

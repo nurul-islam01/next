@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecosystem.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.9.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.9.5&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/web22/Documents/nurul-next&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/web22/Documents/nij/next&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -121,6 +121,9 @@
       <workItem from="1703655491850" duration="65000" />
       <workItem from="1703658053736" duration="8867000" />
       <workItem from="1703688160231" duration="14029000" />
+      <workItem from="1703733844995" duration="2171000" />
+      <workItem from="1703741269759" duration="43000" />
+      <workItem from="1703741801218" duration="1003000" />
     </task>
     <servers />
   </component>

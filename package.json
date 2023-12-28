@@ -2,6 +2,10 @@
   "name": "nurul",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nurul-islam01/next.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
