@@ -30,7 +30,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            set -e
             cd htdocs/nurulislam.dev
             git pull origin main
             npm install
