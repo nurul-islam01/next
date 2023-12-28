@@ -3,6 +3,10 @@ import { Head, Html, Main, NextScript } from 'next/document';
 export default function Document() {
   return (
     <Html lang="en">
+      <script
+        defer=""
+        src="https://www.googletagmanager.com/gtm.js?id=G-RW7YS6YY4Q"
+      ></script>
       <meta
         httpEquiv="Content-Security-Policy"
         content="upgrade-insecure-requests"
