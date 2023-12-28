@@ -20,7 +20,7 @@ const Container = ({ children }) => {
     <main className={poppins.className}>
       <noscript>
         <iframe
-          src={`https://www.googletagmanager.com/ns.html?id=GTM-xxxx`}
+          src={`https://www.googletagmanager.com/ns.html?id=G-RW7YS6YY4Q`}
           height="0"
           width="0"
           style={{ display: 'none', visibility: 'hidden' }}
