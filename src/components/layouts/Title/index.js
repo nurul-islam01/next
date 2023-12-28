@@ -1,8 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
+import GoogleTagManager from '@magicul/next-google-tag-manager';
 
 const Title = () => (
   <Head>
+    <GoogleTagManager id="G-RW7YS6YY4Q" />
     <title>Nurul Islam - Full-Stack Developer</title>
     <link href="https://www.nurulislam.dev" rel="canonical" />
     <meta content="index, follow" name="robots" />
