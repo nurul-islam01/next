@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
+    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/api/tiktok.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/tiktok/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/tiktok/tiktok.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fallback-development.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/fallback-development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/swe-worker-development.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/swe-worker-development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/workbox-7144475a.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/workbox-7144475a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/mail.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,10 +86,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/api" />
+      <recent name="$PROJECT_DIR$/src/pages/api/tiktok" />
+      <recent name="$PROJECT_DIR$/src/pages/api/mail" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/pages/api/mail" />
-      <recent name="$PROJECT_DIR$/src/components/atoms" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -119,7 +136,7 @@
       <workItem from="1703733844995" duration="2171000" />
       <workItem from="1703741269759" duration="43000" />
       <workItem from="1703741801218" duration="2405000" />
-      <workItem from="1703747667266" duration="2628000" />
+      <workItem from="1703747667266" duration="12221000" />
     </task>
     <servers />
   </component>

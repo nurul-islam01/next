@@ -15,9 +15,16 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
-  reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
+  },
+  async exportPathMap() {
+    return {
+      '/': { page: '/' },
+      '/resume': { page: '/resume' },
+      '/contact': { page: '/contact' },
+      '/tiktok': { page: '/tiktok' }
+    };
   },
   eslint: { ignoreDuringBuilds: true },
   webpack(config) {
@@ -32,8 +39,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  compiler: {
-    removeConsole: true
+  experimental: {
+    webVitalsAttribution: ['CLS', 'LCP']
   }
 };
 

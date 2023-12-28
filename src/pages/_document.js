@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <script
-        defer=""
+        defer
         src="https://www.googletagmanager.com/gtm.js?id=G-RW7YS6YY4Q"
       ></script>
       <meta

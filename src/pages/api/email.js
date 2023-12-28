@@ -1,17 +1,24 @@
 import { sendMail } from '@/utils/mail';
 
-const handler = async (req, res) => {
+export default async function handler(req, res) {
   try {
     const { method } = req;
     switch (method) {
       case 'POST': {
-        await sendMail(req.body);
-        res.status(200).send('Success');
+        sendMail(req.body)
+          .then(() => {
+            res.status(200).send('Success');
+          })
+          .catch((err) => {
+            console.log(err);
+            res.status(417).json({
+              message: err.message
+            });
+          });
         break;
       }
       case 'GET': {
-        //Do some thing
-        res.status(200).send(req.auth_data);
+        res.status(200).send({ hi: 'Hey love you' });
         break;
       }
       default:
@@ -25,6 +32,4 @@ const handler = async (req, res) => {
       message: err.message
     });
   }
-};
-
-export default handler;
+}

@@ -27,9 +27,11 @@ const Contacts = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     setMail({ loading: true, status: status.LOADING });
     axios
-      .post('/api/mail', state, {
+      .post('/api/email', state, {
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json'
         }
