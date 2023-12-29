@@ -6,6 +6,8 @@ import Header from '@/components/layouts/Header';
 import Title from '@/components/layouts/Title';
 import Footer from '@/components/layouts/Footer';
 
+import { useBgMove } from '@/utils/hooks';
+
 import styles from './container.module.css';
 
 const poppins = Poppins({
@@ -16,6 +18,8 @@ const poppins = Poppins({
 });
 
 const Container = ({ children }) => {
+  useBgMove('background');
+
   return (
     <main className={poppins.className}>
       <noscript>
@@ -27,7 +31,7 @@ const Container = ({ children }) => {
         />
       </noscript>
       <Title />
-      <div className={styles.background} />
+      <div className={styles.background} id="background" />
       <div className={styles.base}>
         <Header />
         <>{children}</>
