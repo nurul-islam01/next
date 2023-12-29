@@ -1,27 +1,12 @@
 import React from 'react';
-import styles from './header.module.css';
 import NavItem from '@/components/atoms/NavItem';
 
 import Hamburger from '@/icons/hamburger.svg';
 import Link from 'next/link';
 
-const navs = [
-  {
-    url: '/',
-    name: 'About Me',
-    label: 'About Me page link'
-  },
-  {
-    url: '/resume',
-    name: 'Resume',
-    label: 'Resume page link'
-  },
-  {
-    url: '/contact',
-    name: 'Contact',
-    label: 'Contact page link'
-  }
-];
+import { navs } from '@/utils/constants';
+
+import styles from './header.module.css';
 
 export default function Header() {
   const toggleNav = () => {
