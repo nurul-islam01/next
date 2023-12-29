@@ -1,0 +1,21 @@
+.base {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em 2.1em;
+    cursor: pointer;
+    font-size: 1em;
+    height: 44px;
+    outline: 0;
+    border: 2px solid #007ced;
+    color: var(--white);
+    text-shadow: none;
+    background-color: #333;
+    border-radius: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.78);
+}

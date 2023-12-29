@@ -5,14 +5,11 @@ import Spinner from '@/components/atoms/Spinner';
 import SectionTitle from '@/components/atoms/SectionTitle';
 import Input from '@/components/atoms/Input';
 import TextArea from '@/components/atoms/TextArea';
+import Button from '@/components/atoms/Button';
 
 import styles from './contacts.module.css';
 
-const status = Object.freeze({
-  ERROR: 'error',
-  SUCCESS: 'success',
-  LOADING: 'loading'
-});
+import { status } from '@/utils/constants';
 
 const Contacts = () => {
   const [state, setState] = useState({});
@@ -136,12 +133,12 @@ const Contacts = () => {
             />
           </div>
           <div>
-            <button
+            <Button
               type="submit"
               className={`${styles.submit} ${styles[mail.status] || ''}`}
             >
               {!mail.loading ? 'Send message' : <Spinner />}
-            </button>
+            </Button>
           </div>
         </form>
       </div>

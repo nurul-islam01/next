@@ -22,8 +22,7 @@ const nextConfig = {
     return {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
-      '/contact': { page: '/contact' },
-      '/tiktok': { page: '/tiktok' }
+      '/contact': { page: '/contact' }
     };
   },
   eslint: { ignoreDuringBuilds: true },
