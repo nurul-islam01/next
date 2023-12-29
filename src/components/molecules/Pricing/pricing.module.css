@@ -15,3 +15,10 @@
     color: var(--light-gray);
     font-size: 16px;
 }
+
+@media (min-width: 834px) {
+    .base {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

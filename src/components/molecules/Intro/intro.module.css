@@ -9,25 +9,43 @@
 
 .wrapper {
     display: grid;
-    width: 295px;
     margin: 0 auto;
     justify-content: center;
 }
 
+.left {
+    width: 100%;
+    height: 100%;
+}
+
 .image-wrapper {
-    height: 238px;
-    width: 238px;
-    margin: 30px auto;
-    border-radius: 100%;
-    background-image: url(/img/person/p5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: calc(100% - 36px);
+    border-radius: 1000px;
+    overflow: hidden;
     background-color: #444;
     border: 18px solid #444;
     -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+.image {
+    background-image: url("/img/person/p5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -18px;
+    bottom: -18px;
+    width: auto;
+    left: -18px;
+    right: -18px;
 }
 
 .intro-info {
@@ -113,40 +131,18 @@
     background-color: #d5d5d5;
 }
 
-@media (max-width: 883px) {
-    .image-wrapper {
-        margin: 30px auto;
-    }
-
-    .swiper {
-        margin: 0 auto;
-    }
-
-    .name {
-        text-align: center;
-    }
-
-    .description {
-        text-align: center;
-    }
-}
-
 @media (min-width: 884px) {
     .base {
-        padding: 0;
         margin: 5% auto 5%;
     }
 
     .wrapper {
-        width: 884px;
-        gap: 60px;
-        grid-template-columns: 323px 501px;
+        gap: 30px;
+        grid-template-columns: 4fr 5fr;
     }
 
     .image-wrapper {
         margin: 0;
-        height: 323px;
-        width: 323px;
     }
 
     .intro-info {
@@ -178,5 +174,18 @@
     .button {
         display: inline-block;
         margin-right: 10px;
+    }
+}
+
+@media (min-width: 834px) {
+    .image-wrapper {
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .base {
+        padding: 0;
     }
 }

@@ -10,7 +10,7 @@ const Title = () => {
   return (
     <Head>
       <title>Nurul Islam - Full-Stack Developer</title>
-      <link href="https://www.nurulislam.dev" rel="canonical" />
+      <link href="https://nurulislam.dev" rel="canonical" />
       <meta content="index, follow" name="robots" />
       <meta
         content="Full-stack web development, Web development, Frontend development, Backend development, React.js, Angular, Next.js, Express.js, Webpack, HTML5, CSS3, JavaScript, Node.js, Responsive web design, Mobile-first development, Android development, React Native, Single Page Applications (SPA), Server-side rendering (SSR), Progressive Web Apps (PWAs), RESTful APIs, GraphQL, MVC architecture, Database design, SQL, NoSQL, MongoDB, Firebase, Real-time databases, Authentication systems, JWT (JSON Web Tokens), OAuth, User authorization, State management (Redux, MobX), CSS, SCSS, Responsive design, Cross-browser compatibility, Git version control, Continuous Integration (CI), Test-driven development (TDD), Unit testing, End-to-end testing, DevOps, Docker, Microservices architecture, API design, WebSockets, Socket.io, Cloud computing, AWS (Amazon Web Services), Azure, Google Cloud Platform, Deployment automation, CDN (Content Delivery Network), Performance optimization, Code splitting, Load balancing, Security best practices, HTTPS, OWASP Top 10, SEO optimization, Web analytics, CI/CD pipelines, Jira, Agile development, Scrum, Kanban, Code reviews, Pair programming, Version control branching strategies, Technical documentation, Debugging, Profiling, Webpack plugins, Babel, ESLint, Prettier, WebAssembly, Progressive enhancement, Web components, NPM (Node Package Manager), Yarn, GraphQL APIs, Code splitting, Responsive images, Web performance metrics, Frontend frameworks (Vue.js, Svelte), Material Design, Bootstrap, UI/UX design principles, Design systems, Accessibility (a11y), Cross-platform development, Mobile app optimization, Push notifications, Websockets, Full-text search, API security, Firebase Cloud Functions, FaaS (Function as a Service), Web development trends"
@@ -24,7 +24,7 @@ const Title = () => {
       <meta content="summary_large_image" name="twitter:card" />
       <meta content="@nurulislam.dev" name="twitter:site" />
       <meta
-        content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase"
+        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
         name="twitter:title"
       />
 
@@ -33,14 +33,14 @@ const Title = () => {
         name="twitter:description"
       />
       <meta
-        content="https://www.nurulislam.dev/meta-images/twitter.jpeg"
+        content="https://nurulislam.dev/img/meta-images/twitter.jpeg"
         name="twitter:image"
       />
 
       <meta content="website" property="og:type" />
-      <meta content="https://www.nurulislam.dev" property="og:url" />
+      <meta content="https://nurulislam.dev" property="og:url" />
       <meta
-        content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase"
+        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
         property="og:title"
       />
       <meta
@@ -48,12 +48,12 @@ const Title = () => {
         property="og:description"
       />
       <meta
-        content="https://www.nurulislam.dev/meta-images/facebook.jpeg"
+        content="https://nurulislam.dev/img/meta-images/facebook.jpeg"
         property="og:image"
       />
 
       <meta
-        content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase"
+        content="Nurul Islam - Full-Stack Developer | React, Next, Angular, Express, SQL, MongoDB, Firebase"
         itemProp="name"
       />
       <meta
@@ -61,7 +61,7 @@ const Title = () => {
         itemProp="description"
       />
       <meta
-        content="https://www.nurulislam.dev/meta-images/google.jpeg"
+        content="https://nurulislam.dev/img/meta-images/google.jpeg"
         itemProp="image"
       />
 

@@ -18,7 +18,11 @@ const swipers = [
 const Intro = () => (
   <section className={`${styles.base} content`}>
     <div className={styles.wrapper}>
-      <div className={styles['image-wrapper']}></div>
+      <div className={styles.left}>
+        <div className={styles['image-wrapper']}>
+          <div className={styles.image} />
+        </div>
+      </div>
       <div className={styles['intro-info']}>
         <Swiper
           slidesPerView={1}
