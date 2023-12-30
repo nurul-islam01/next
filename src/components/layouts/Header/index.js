@@ -11,10 +11,12 @@ import styles from './header.module.css';
 export default function Header() {
   const toggleNav = () => {
     const nav = document.getElementById('nav');
-    if (nav.classList.contains('open')) {
-      nav.classList.remove('open');
+    const { marginRight } = getComputedStyle(nav);
+    
+    if ([0, '0px'].includes(marginRight)) {
+      nav.style.marginRight = '-100%';
     } else {
-      nav.classList.add('open');
+      nav.style.marginRight = '0px';
     }
   };
 

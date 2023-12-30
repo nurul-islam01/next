@@ -16,12 +16,13 @@
 .base {
     position: relative;
     background-color: var(--container-background);
+    padding-top: 52px;
 }
 
 @media (min-width: 1280px) {
     .base {
-        width: 94%;
         max-width: 1240px;
+        width: 94%;
         margin: 3% auto;
         padding: 40px 0 0;
         border-radius: 40px;
@@ -31,11 +32,5 @@
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         backface-visibility: hidden;
-    }
-}
-
-@media (min-width: 1280px) {
-    .base {
-        max-width: 1240px;
     }
 }
