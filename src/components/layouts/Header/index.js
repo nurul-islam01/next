@@ -12,7 +12,7 @@ export default function Header() {
   const toggleNav = () => {
     const nav = document.getElementById('nav');
     const { marginRight } = getComputedStyle(nav);
-    
+
     if ([0, '0px'].includes(marginRight)) {
       nav.style.marginRight = '-100%';
     } else {

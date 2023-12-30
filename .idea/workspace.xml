@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/NavItem/nav-item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/NavItem/nav-item.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layouts/Container/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Container/container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Container/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layouts/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Header/header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layouts/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/Title/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Title/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/Certificates/certificates.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Certificates/certificates.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/Clients/clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Clients/clients.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/IDo/i-do.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/IDo/i-do.module.css" afterDir="false" />
@@ -20,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/src/components/molecules/Testimonial/testimonial.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Testimonial/testimonial.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/hooks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,8 @@
       <workItem from="1703747667266" duration="12537000" />
       <workItem from="1703771797047" duration="17998000" />
       <workItem from="1703829989152" duration="24681000" />
-      <workItem from="1703915676892" duration="653000" />
+      <workItem from="1703915676892" duration="1048000" />
+      <workItem from="1703920673360" duration="321000" />
     </task>
     <servers />
   </component>

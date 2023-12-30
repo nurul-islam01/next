@@ -1,24 +1,24 @@
 .base {
-    display: grid;
-    width: 100%;
-    max-width: 1100px;
-    padding: 50px 40px 30px;
-    margin: 0 auto;
+  display: grid;
+  width: 100%;
+  max-width: 1100px;
+  padding: 50px 40px 30px;
+  margin: 0 auto;
 }
 
 .pricing {
-    display: grid;
-    gap: 32px;
+  display: grid;
+  gap: 32px;
 }
 
 .letter {
-    color: var(--light-gray);
-    font-size: 14px;
+  color: var(--light-gray);
+  font-size: 14px;
 }
 
 @media (min-width: 1280px) {
-    .base {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .base {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
