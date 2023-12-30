@@ -71,13 +71,23 @@ const Clients = () => {
         >
           {clients.map(({ url, label, Icon }, i) => (
             <SwiperSlide key={i} className={styles.client}>
-              <Link href={url} aria-label={label}>
+              <Link
+                href={url}
+                target="_blank"
+                aria-label={label}
+                rel="noopener noreferrer"
+              >
                 <Icon />
               </Link>
             </SwiperSlide>
           ))}
           <SwiperSlide className={styles.client}>
-            <Link href="https://rajneete.com" aria-label="rajneete site">
+            <Link
+              href="https://rajneete.com"
+              target="_blank"
+              aria-label="rajneete site"
+              rel="noopener noreferrer"
+            >
               <Image
                 width="141"
                 height="40"

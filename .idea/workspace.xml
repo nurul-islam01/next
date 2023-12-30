@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/Title/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Title/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Clients/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Clients/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +128,7 @@
       <workItem from="1703829989152" duration="24681000" />
       <workItem from="1703915676892" duration="1048000" />
       <workItem from="1703920673360" duration="5529000" />
+      <workItem from="1703944917306" duration="669000" />
     </task>
     <servers />
   </component>

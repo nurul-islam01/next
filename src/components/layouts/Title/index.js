@@ -13,38 +13,38 @@ const Title = () => {
       <link href="https://nurulislam.dev" rel="canonical" />
       <meta content="index, follow" name="robots" />
       <meta
-        content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
         name="description"
+        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
       />
       <meta content="summary_large_image" name="twitter:card" />
       <meta content="@nurulislam.dev" name="twitter:site" />
       <meta
-        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
         name="twitter:title"
+        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
       />
 
       <meta
-        content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
         name="twitter:description"
+        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
       />
       <meta
-        content="https://nurulislam.dev/img/meta-images/twitter.jpeg"
         name="twitter:image"
+        content="https://nurulislam.dev/img/meta-images/twitter.jpeg"
       />
 
       <meta content="website" property="og:type" />
       <meta content="https://nurulislam.dev" property="og:url" />
       <meta
-        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
         property="og:title"
+        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
       />
       <meta
-        content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
         property="og:description"
+        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
       />
       <meta
-        content="https://nurulislam.dev/img/meta-images/facebook.jpeg"
         property="og:image"
+        content="https://nurulislam.dev/img/meta-images/facebook.jpeg"
       />
 
       <meta
@@ -52,12 +52,12 @@ const Title = () => {
         itemProp="name"
       />
       <meta
-        content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
         itemProp="description"
+        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
       />
       <meta
-        content="https://nurulislam.dev/img/meta-images/google.jpeg"
         itemProp="image"
+        content="https://nurulislam.dev/img/meta-images/google.jpeg"
       />
 
       <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
