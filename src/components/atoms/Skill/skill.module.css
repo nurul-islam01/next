@@ -1,13 +1,13 @@
 .base {
-    display: inline;
-    background-color: #444;
-    color: var(--white-smoke);
-    padding: 6px 2rem;
-    border-radius: 100px;
+  display: inline;
+  background-color: #444;
+  color: var(--white-smoke);
+  padding: 6px 2rem;
+  border-radius: 100px;
 }
 
 .base h5 {
-    opacity: .6;
-    font-weight: var(--normal);
-    font-size: 12px;
+  opacity: 0.6;
+  font-weight: var(--normal);
+  font-size: 12px;
 }
