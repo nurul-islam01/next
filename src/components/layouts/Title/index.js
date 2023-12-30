@@ -14,7 +14,7 @@ const Title = () => {
       <meta content="index, follow" name="robots" />
       <meta
         name="description"
-        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
+        content="Experienced Full-Stack Developer, Nurul Islam, excels in React, Next.js, Express, Frontend and backend caching expert. Passionate about seamless user experiences and dynamic web apps. Let's bring your vision to life with innovative, tailored solutions. Explore my portfolio for stunning examples."
       />
       <meta content="summary_large_image" name="twitter:card" />
       <meta content="@nurulislam.dev" name="twitter:site" />
@@ -25,7 +25,7 @@ const Title = () => {
 
       <meta
         name="twitter:description"
-        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
+        content="Experienced Full-Stack Developer, Nurul Islam, excels in React, Next.js, Express, Frontend and backend caching expert. Passionate about seamless user experiences and dynamic web apps. Let's bring your vision to life with innovative, tailored solutions. Explore my portfolio for stunning examples."
       />
       <meta
         name="twitter:image"
@@ -40,7 +40,7 @@ const Title = () => {
       />
       <meta
         property="og:description"
-        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
+        content="Experienced Full-Stack Developer, Nurul Islam, excels in React, Next.js, Express, Frontend and backend caching expert. Passionate about seamless user experiences and dynamic web apps. Let's bring your vision to life with innovative, tailored solutions. Explore my portfolio for stunning examples."
       />
       <meta
         property="og:image"
@@ -53,7 +53,7 @@ const Title = () => {
       />
       <meta
         itemProp="description"
-        content="Experienced Full-Stack Web Developer, Nurul Islam, excels in crafting dynamic web applications using React, Angular, Express, SQL, MongoDB, and Firebase. From responsive interfaces to robust server logic, I bring digital ideas to life with passion and precision. Specializing in e-commerce, web apps, and mobile solutions, I ensure your project exceeds expectations. Stay ahead of trends with my commitment to cutting-edge technologies. Let's transform your vision into a stunning reality. Explore my portfolio for innovative web solutions tailored to your unique needs."
+        content="Experienced Full-Stack Developer, Nurul Islam, excels in React, Next.js, Express, Frontend and backend caching expert. Passionate about seamless user experiences and dynamic web apps. Let's bring your vision to life with innovative, tailored solutions. Explore my portfolio for stunning examples."
       />
       <meta
         itemProp="image"
