@@ -6,46 +6,43 @@ import styles from './skills.module.css';
 import Skill from '@/components/atoms/Skill';
 
 const skills = [
-  {
-    name: 'Javascript, TypeScript',
-    percent: 95
-  },
-  {
-    name: 'Java',
-    percent: 75
-  },
-  {
-    name: 'Nodejs',
-    percent: 85
-  },
-  {
-    name: 'React, Angular',
-    percent: 95
-  },
-  {
-    name: 'React, NextJS',
-    percent: 95
-  },
-  {
-    name: 'Express',
-    percent: 95
-  },
-  {
-    name: 'MONGODB, SQL, Firebase',
-    percent: 90
-  },
-  {
-    name: 'Android with Java',
-    percent: 75
-  },
-  {
-    name: 'Webpack, GraphQL',
-    percent: 90
-  },
-  {
-    name: 'HTML, CSS, JQUERY, Tailwind, Bootstrap',
-    percent: 98
-  }
+  'Javascript',
+  'TypeScript',
+  'React',
+  'Next.js',
+  'Angular',
+  'React isomorphic',
+  'Redux',
+  'Material Design',
+  'Tailwind css',
+  'Micro services',
+  'ReduxThunk',
+  'Progressive Web Apps',
+  'Frontend Caching',
+  'Offline Capabilities',
+  'SEO',
+  'GraphQL',
+  'Express',
+  'Restfull Api',
+  'Backend Caching',
+  'Push Notification',
+  'Redis',
+  'Docker',
+  'Github',
+  'Github CICD',
+  'CircleCI',
+  'Java',
+  'Android',
+  'SQL',
+  'MongoDB',
+  'Firebase',
+  'HTML5',
+  'CSS',
+  'SCSS',
+  'SASS',
+  'Bootstrap',
+  'Jquery',
+  'Three.js'
 ];
 
 const Skills = () => {
