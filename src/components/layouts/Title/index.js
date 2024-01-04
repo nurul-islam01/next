@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
+
 import { tagManager } from '@/utils/tagmanager';
 
 const Title = () => {
@@ -9,7 +10,9 @@ const Title = () => {
 
   return (
     <Head>
-      <title>Expert Full Stack Engineer: Web Development Mastery</title>
+      <title>
+        Nurul Islam - Full-Stack Developer | React, Next, Express, Angular
+      </title>
       <link href="https://nurulislam.dev" rel="canonical" />
       <meta content="index, follow" name="robots" />
       <meta
@@ -20,7 +23,7 @@ const Title = () => {
       <meta content="@nurulislam.dev" name="twitter:site" />
       <meta
         name="twitter:title"
-        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
+        content="Nurul Islam - Full-Stack Developer | React, Next, Angular, Express, SQL, MongoDB, Firebase"
       />
 
       <meta
@@ -36,7 +39,7 @@ const Title = () => {
       <meta content="https://nurulislam.dev" property="og:url" />
       <meta
         property="og:title"
-        content="Nurul Islam - Full-Stack Developer | React, Next Angular, Express, SQL, MongoDB, Firebase"
+        content="Nurul Islam - Full-Stack Developer | React, Next, Angular, Express, SQL, MongoDB, Firebase"
       />
       <meta
         property="og:description"

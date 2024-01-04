@@ -57,7 +57,7 @@ const Intro = () => {
             technical prowess to every project I undertake.
           </p>
           <div className={styles.buttons}>
-            <Link className={styles.button} href="/">
+            <Link className={styles.button} download href="/nurul-Islam-cv.pdf">
               Download CV
             </Link>
             <Link className={styles.button} href="/contact">
