@@ -89,7 +89,7 @@ const Contacts = () => {
             </div>
             <div className={styles.info}>
               <h3>
-                <a href="email:hello@nurulislam.dev">hello@nurulislam.dev</a>
+                <a href="email:contact@nurul.dev">contact@nurul.dev</a>
               </h3>
               <p>
                 I&apos;m excited to hear from you and explore the possibilities

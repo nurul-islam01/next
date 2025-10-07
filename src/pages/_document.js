@@ -22,7 +22,7 @@ export default function Document() {
         name="keywords"
       />
       <link
-        href="https://www.nurulislam.dev/sitemap.xml"
+        href={`${process.env.SITE_URL}/sitemap.xml`}
         rel="sitemap"
         title="Sitemap"
         type="application/xml"

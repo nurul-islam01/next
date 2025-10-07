@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       watch: '.',
-      cwd: '/home/nurul/htdocs/nurulislam.dev',
+      cwd: '/home/nurul/htdocs/nurul.dev',
       script: 'npm',
       args: 'start',
       env: {
@@ -21,7 +21,7 @@ module.exports = {
       host: '62.72.24.228',
       ref: 'origin/main',
       repo: 'git@github.com:nurul-islam01/next.git',
-      path: '/home/nurul/htdocs/nurulislam.dev',
+      path: '/home/nurul/htdocs/nurul.dev',
       'pre-deploy-local': '',
       'post-deploy':
         'npm install && pm2 reload ecosystem.config.js --env production',
