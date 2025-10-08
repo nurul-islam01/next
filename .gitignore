@@ -26,9 +26,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# public folder - ignore files but keep folders
+# public folder - ignore files but keep fonts and img folders
 /public/*
-!/public/*/
+!/public/fonts/
+!/public/fonts/**
+!/public/img/
+!/public/img/**
 
 /out/
 
