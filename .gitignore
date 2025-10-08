@@ -25,10 +25,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/public/
+
+# public folder - ignore files but keep folders
+/public/*
+!/public/*/
+
 /out/
 
 
+# environment variables
+.env
 .env*.local
 
 .vercel

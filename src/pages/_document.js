@@ -27,6 +27,13 @@ export default function Document() {
         title="Sitemap"
         type="application/xml"
       />
+      <link
+        rel="preload"
+        as="image"
+        href="/img/person/nurul.jpg"
+        type="image/jpeg"
+      />
+
       <Head />
       <body>
         <Main />

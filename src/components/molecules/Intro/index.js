@@ -2,10 +2,13 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import Link from 'next/link';
+import Image from 'next/image';
+
+import { useBgMove } from '@/utils/hooks';
 
 import 'swiper/css';
+
 import styles from './intro.module.css';
-import { useBgMove } from '@/utils/hooks';
 
 const swipers = [
   'Fullstack-developer',
@@ -24,7 +27,15 @@ const Intro = () => {
       <div className={styles.wrapper}>
         <div className={styles.left}>
           <div className={styles['image-wrapper']}>
-            <div className={styles.image} id="person-image" />
+            <div className={styles.image} id="person-image">
+              <Image
+                src="/img/person/nurul.jpg"
+                alt="Nurul Islam"
+                width={100}
+                height={100}
+                loading="eager"
+              />
+            </div>
           </div>
         </div>
         <div className={styles['intro-info']}>
