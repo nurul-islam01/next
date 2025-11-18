@@ -15,6 +15,8 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
+  // Enable standalone output for Docker
+  output: 'standalone',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },

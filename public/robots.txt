@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.nurulm.dev
+Host: https://nurul.dev
 
 # Sitemaps
-Sitemap: https://www.nurulm.dev/sitemap.xml
+Sitemap: https://nurul.dev/sitemap.xml
