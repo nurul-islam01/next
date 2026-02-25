@@ -14,6 +14,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1,
       images: [
         `${siteUrl}/images/nurul.jpeg`,
+        `${siteUrl}/images/nurul-islam-pro.jpeg`,
+        `${siteUrl}/images/nurul-islam-pro-og.jpg`,
         `${siteUrl}/images/nurul-contact.jpeg`,
         `${siteUrl}/images/nurul-about.jpeg`,
         `${siteUrl}/images/nurul-portrait-5.jpeg`,

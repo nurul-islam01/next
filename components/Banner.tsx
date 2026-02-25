@@ -33,7 +33,7 @@ export default function Banner() {
         <div className="col-xl-6">
           <div className="mil-banner-image">
             <img
-              src="/images/nurul-contact.jpeg"
+              src="/images/nurul-islam-cover.jpeg"
               alt="Nurul Islam Tipu"
               className="mil-scale-img"
               data-value-1=".73"

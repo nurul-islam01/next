@@ -62,7 +62,7 @@ export async function generateMetadata(): Promise<Metadata> {
         "Passionate Full Stack Developer with expertise in React, Next.js, Node.js, Go, and cloud technologies. Deputy Manager at Navana Group, formerly Senior Developer at Prothom Alo.",
       images: [
         {
-          url: `${siteUrl}/images/nurul.jpeg`,
+          url: `${siteUrl}/images/nurul-islam-pro-og.jpg`,
           width: 1200,
           height: 630,
           alt: "Nurul Islam Tipu – Full Stack Developer",
@@ -74,7 +74,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "Nurul Islam Tipu – Full Stack Developer",
       description:
         "Passionate Full Stack Developer with expertise in React, Next.js, Node.js, Go, and cloud technologies.",
-      images: [`${siteUrl}/images/nurul.jpeg`],
+      images: [`${siteUrl}/images/nurul-islam-pro-og.jpg`],
     },
     robots: {
       index: true,
