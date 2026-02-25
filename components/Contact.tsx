@@ -15,15 +15,21 @@ export default function Contact() {
         </div>
         <div className="mil-divider mil-mb60 mil-up"></div>
         <div className="row mil-mb30">
-          <div className="col-md-4 mil-mb60">
+          <div className="col-md-3 mil-mb60">
             <h6 className="mil-fs16 mil-mb10 mil-up">Email</h6>
             <p className="mil-fs16 mil-soft mil-up">nurul.islam3f@gmail.com</p>
           </div>
-          <div className="col-md-4 mil-mb60">
+          <div className="col-md-3 mil-mb60">
+            <h6 className="mil-fs16 mil-mb10 mil-up">Phone</h6>
+            <p className="mil-fs16 mil-soft mil-up">
+              <a href="tel:+8801727946384">+880 1727-946384</a>
+            </p>
+          </div>
+          <div className="col-md-3 mil-mb60">
             <h6 className="mil-fs16 mil-mb10 mil-up">Location</h6>
             <p className="mil-fs16 mil-soft mil-up">Bangladesh</p>
           </div>
-          <div className="col-md-4 mil-mb60">
+          <div className="col-md-3 mil-mb60">
             <h6 className="mil-fs16 mil-mb10 mil-up">Website</h6>
             <p className="mil-fs16 mil-soft mil-up">www.nurul.com.bd</p>
           </div>

@@ -1,8 +1,11 @@
 import type { MetadataRoute } from "next";
+import { headers } from "next/headers";
 
-const siteUrl = "https://www.nurul.dev";
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const headersList = await headers();
+  const host = headersList.get("host") || "www.nurul.dev";
+  const siteUrl = `https://${host}`;
 
-export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: siteUrl,

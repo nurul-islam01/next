@@ -1,3 +1,4 @@
+import { headers } from "next/headers";
 import GsapProvider from "@/components/GsapProvider";
 import Preloader from "@/components/Preloader";
 import CursorFollower from "@/components/CursorFollower";
@@ -13,37 +14,46 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Nurul Islam Tipu",
-  url: "https://www.nurul.dev",
-  image: "https://www.nurul.dev/images/nurul.jpeg",
-  jobTitle: "Full Stack Developer",
-  worksFor: {
-    "@type": "Organization",
-    name: "Navana Group",
-  },
-  description:
-    "Passionate Full Stack Developer with expertise in React, Next.js, Node.js, Go, and cloud technologies.",
-  knowsAbout: [
-    "JavaScript", "TypeScript", "React", "Next.js", "Angular",
-    "Node.js", "Express.js", "NestJS", "Go", "MongoDB", "PostgreSQL",
-    "Redis", "Docker", "GraphQL", "RESTful API", "AWS", "Vercel",
-  ],
-  sameAs: [
-    "https://github.com/",
-    "https://twitter.com/",
-    "https://www.facebook.com/",
-    "https://www.instagram.com/",
-  ],
-  alumniOf: {
-    "@type": "Organization",
-    name: "Prothom Alo",
-  },
-};
+function buildJsonLd(siteUrl: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Nurul Islam Tipu",
+    url: siteUrl,
+    image: `${siteUrl}/images/nurul.jpeg`,
+    jobTitle: "Full Stack Developer",
+    worksFor: {
+      "@type": "Organization",
+      name: "Navana Group",
+    },
+    description:
+      "Passionate Full Stack Developer with expertise in React, Next.js, Node.js, Go, and cloud technologies.",
+    knowsAbout: [
+      "JavaScript", "TypeScript", "React", "Next.js", "Angular",
+      "Node.js", "Express.js", "NestJS", "Go", "MongoDB", "PostgreSQL",
+      "Redis", "Docker", "GraphQL", "RESTful API", "AWS", "Vercel",
+    ],
+    sameAs: [
+      "https://github.com/",
+      "https://twitter.com/",
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+    ],
+    telephone: "+8801727946384",
+    email: "nurul.islam3f@gmail.com",
+    alumniOf: {
+      "@type": "Organization",
+      name: "Prothom Alo",
+    },
+  };
+}
 
-export default function Home() {
+export default async function Home() {
+  const headersList = await headers();
+  const host = headersList.get("host") || "www.nurul.dev";
+  const siteUrl = `https://${host}`;
+  const jsonLd = buildJsonLd(siteUrl);
+
   return (
     <>
       <script
