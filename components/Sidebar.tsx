@@ -3,22 +3,22 @@ export default function Sidebar() {
     <div className="mil-sidebar">
       <ul className="mil-social mil-c-gone">
         <li>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/islam_nuru1598" target="_blank" rel="noopener noreferrer">
             tw.
           </a>
         </li>
         <li>
-          <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/nurul.islam001" target="_blank" rel="noopener noreferrer">
             fb.
           </a>
         </li>
         <li>
-          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
-            ins.
+          <a href="https://www.linkedin.com/in/nurul-islam01/" target="_blank" rel="noopener noreferrer">
+            in.
           </a>
         </li>
         <li>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/nurul-islam01" target="_blank" rel="noopener noreferrer">
             gh.
           </a>
         </li>

@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
 const projects = [
+  { image: "/images/IMG-20221107-WA0008.jpg", alt: "Award Winners Group Photo on Stage" },
   { image: "/images/IMG-20221106-WA0031.jpg", alt: "Receiving Prothom Alo Best Newcomer 2022 Award" },
   { image: "/images/IMG-20221106-WA0061.jpg", alt: "Team at Prothom Alo 24th Anniversary Event" },
-  { image: "/images/IMG-20221107-WA0008.jpg", alt: "Award Winners Group Photo on Stage" },
   { image: "/images/20221106_192237.webp", alt: "Prothom Alo Best Newcomer 2022 Award Crest" },
   { image: "/images/IMG-20221106-WA0011.jpg", alt: "Full Team Photo at Prothom Alo" },
 ];

@@ -39,7 +39,7 @@ export default function Contact() {
         <div className="mil-about-banner">
           <div className="mil-image-frame mil-up">
             <img
-              src="/images/IMG-20220328-WA0041.jpg"
+              src="/images/IMG-20220328-WA0095-contact.jpg"
               alt="Nurul Islam Tipu"
               className="mil-scale-img"
               data-value-1="1"
