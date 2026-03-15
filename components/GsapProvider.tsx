@@ -67,22 +67,52 @@ export default function GsapProvider({
         ease: "sine",
         duration: 0.4,
         delay: 0.2,
-        onComplete: () => ScrollTrigger.refresh(),
+        onComplete: () => {
+          ScrollTrigger.refresh();
+          const hash = window.location.hash;
+          if (hash) {
+            try {
+              const target = document.querySelector(hash);
+              if (target) {
+                const offsetY = window.innerWidth < 992 ? 180 : 90;
+                gsap.to(window, {
+                  duration: 1,
+                  ease: "sine",
+                  scrollTo: { y: hash, offsetY },
+                  delay: 0.15,
+                  onComplete: () => ScrollTrigger.refresh(),
+                });
+              }
+            } catch {
+              // Ignore when scroll or hash handling is restricted
+            }
+          }
+        },
       });
 
-    // Scroll links (onepage menu)
-    document.querySelectorAll(".mil-onepage-menu > li > a").forEach((link) => {
-      link.addEventListener("click", (event) => {
-        event.preventDefault();
-        const targetId = (event.currentTarget as HTMLAnchorElement).getAttribute("href");
-        const offsetY = window.innerWidth < 992 ? 180 : 90;
-        gsap.to(window, {
-          duration: 1,
-          ease: "sine",
-          scrollTo: { y: targetId, offsetY },
-        });
+    // Smooth scroll for nav links and logo (#home). Do not update URL (replaceState/hash) – it conflicts with Next.js App Router and throws "insecure".
+    function handleHashClick(event: MouseEvent) {
+      const link = (event.target as HTMLElement).closest("a");
+      if (!link) return;
+      const targetId = link.getAttribute("href");
+      if (!targetId?.startsWith("#")) return;
+      const isNavOrLogo =
+        link.classList.contains("mil-logo") || link.closest(".mil-onepage-menu");
+      if (!isNavOrLogo) return;
+      event.preventDefault();
+      event.stopPropagation();
+      // Close mobile navbar when a menu link is clicked
+      document.querySelector(".mil-sidebar")?.classList.remove("mil-active");
+      document.querySelector(".mil-menu-btn")?.classList.remove("mil-active");
+      const offsetY = window.innerWidth < 992 ? 180 : 90;
+      gsap.to(window, {
+        duration: 1,
+        ease: "sine",
+        scrollTo: { y: targetId, offsetY },
       });
-    });
+    }
+
+    document.body.addEventListener("click", handleHashClick, true);
 
     // Cursor follower
     const follower = document.querySelector(

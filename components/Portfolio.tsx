@@ -1,58 +1,58 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-
-const projects = [
-  { image: "/images/IMG-20221107-WA0008.jpg", alt: "Award Winners Group Photo on Stage" },
-  { image: "/images/IMG-20221106-WA0031.jpg", alt: "Receiving Prothom Alo Best Newcomer 2022 Award" },
-  { image: "/images/IMG-20221106-WA0061.jpg", alt: "Team at Prothom Alo 24th Anniversary Event" },
-  { image: "/images/20221106_192237.webp", alt: "Prothom Alo Best Newcomer 2022 Award Crest" },
-  { image: "/images/IMG-20221106-WA0011.jpg", alt: "Full Team Photo at Prothom Alo" },
+const companies = [
+  { logo: "/protfolios/prothoma-colored.png", name: "Prothoma" },
+  { logo: "/protfolios/navana-logistics.png", name: "Navana Logistics" },
+  { logo: "/protfolios/navana-realestate-logo", name: "Navana Real Estate" },
+  { logo: "/protfolios/epaper-colored.png", name: "ePaper" },
+  { logo: "/protfolios/trust-colored.png", name: "Trust" },
+  { logo: "/protfolios/rajneete.webp", name: "Rajneete" },
+  { logo: "/protfolios/gjc-glorajeanscoffeesbd.svg", name: "Gloria Jean's Coffee" },
+  { logo: "/protfolios/latarte-bd", name: "La Tarte BD" },
+  { logo: "/protfolios/bigganchinta-colored.png", name: "Biggan Chinta" },
+  { logo: "/protfolios/bondhushava-colored.png", name: "Bondhu Shava" },
+  { logo: "/protfolios/chironton71-colored.png", name: "Chiron" },
+  { logo: "/protfolios/kishoralo-colored.png", name: "Kishor Alo" },
+  { logo: "/protfolios/nagorik-songbad-colored.png", name: "Nagorik Songbad" },
 ];
 
 export default function Portfolio() {
   return (
-    <>
-      <div className="mil-container" id="portfolio">
-        <div className="row">
-          <div className="col-lg-8 mil-mb90">
-            <h2 className="mil-fs24 mil-mb30 mil-up">Portfolio</h2>
-            <p className="mil-fs18 mil-up">
-              What sets me apart is not just my{" "}
-              <span className="mil-accent">technical expertise</span> but also
-              my commitment to delivering great results.
-            </p>
-          </div>
+    <section className="mil-portfolio-section" id="portfolio">
+      <div className="mil-container mil-portfolio-header">
+        <p className="mil-suptitle mil-fs16 mil-mb20">Portfolio</p>
+        <h2 className="mil-fs24 mil-mb20 mil-upper">
+          Worked <span className="mil-accent">with</span>
+        </h2>
+        <p className="mil-fs16 mil-soft mil-portfolio-lead">
+          Brands and teams I've partnered with to build products and digital experiences.
+        </p>
+      </div>
+
+      <div className="mil-portfolio-strip">
+        <div className="mil-portfolio-strip-inner">
+          {companies.map((company) => (
+            <a
+              key={company.name}
+              href="#portfolio"
+              className="mil-portfolio-logo mil-c-light"
+              title={company.name}
+              aria-label={company.name}
+            >
+              <img src={company.logo} alt={company.name} />
+            </a>
+          ))}
         </div>
       </div>
-      <div className="mil-container-out mil-p-0-90">
-        <Swiper
-          className="mil-portfolio-slider mil-up mil-c-swipe mil-c-light"
-          modules={[Pagination]}
-          slidesPerView={1}
-          speed={800}
-          pagination={{
-            el: ".mil-swiper-pagination",
-            type: "fraction",
-          }}
-        >
-          {projects.map((project, index) => (
-            <SwiperSlide key={index}>
-              <div className="mil-portfolio-item">
-                <img
-                  src={project.image}
-                  alt={project.alt}
-                  className="mil-scale-img"
-                  data-value-1="1"
-                  data-value-2="1.25"
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <div className="mil-swiper-pagination mil-tac mil-up"></div>
+
+      <div className="mil-portfolio-footer">
+        <p className="mil-portfolio-footer-text">
+          From product strategy to deployment — full stack delivery for web, mobile, and cloud.
+        </p>
+        <a href="#contact-form" className="mil-btn mil-btn-border mil-c-gone">
+          Let&apos;s work together
+        </a>
       </div>
-    </>
+    </section>
   );
 }

@@ -99,7 +99,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-US">
+    <html lang="en-US" suppressHydrationWarning>
       <head>
         <link
           rel="stylesheet"
@@ -108,7 +108,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/css/bootstrap-grid.css" />
         <link rel="stylesheet" href="/css/swiper.min.css" />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
 
         <Script src="/js/gsap.min.js" strategy="beforeInteractive" />

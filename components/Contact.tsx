@@ -48,34 +48,36 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="mil-container mil-p-90-90">
-        <form>
-          <div className="row">
-            <div className="col-md-6 mil-mb60">
-              <input type="text" placeholder="What's your name" />
-            </div>
-            <div className="col-md-6 mil-mb60">
-              <input type="email" placeholder="Your email" />
-            </div>
-            <div className="col-lg-12 mil-mb60">
-              <textarea rows={10} placeholder="Tell me about your project"></textarea>
-            </div>
-            <div className="mil-jcb mil-aic">
-              <p
-                className="mil-fs14 mil-soft"
-                style={{ paddingRight: "15px" }}
-              >
-                * I promise not to disclose your personal information to third
-                parties.
-              </p>
-              <div className="mil-c-gone">
-                <button type="submit" className="mil-btn">
-                  Send message
-                </button>
+      <div className="mil-contact-form-section" id="contact-form">
+        <div className="mil-container mil-p-90-60">
+          <form>
+            <div className="row">
+              <div className="col-md-6 mil-mb60">
+                <input type="text" placeholder="What's your name" />
+              </div>
+              <div className="col-md-6 mil-mb60">
+                <input type="email" placeholder="Your email" />
+              </div>
+              <div className="col-lg-12 mil-mb60">
+                <textarea rows={10} placeholder="Tell me about your project"></textarea>
+              </div>
+              <div className="mil-jcb mil-aic">
+                <p
+                  className="mil-fs14 mil-soft"
+                  style={{ paddingRight: "15px" }}
+                >
+                  * I promise not to disclose your personal information to third
+                  parties.
+                </p>
+                <div className="mil-c-gone">
+                  <button type="submit" className="mil-btn">
+                    Send message
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </>
   );
